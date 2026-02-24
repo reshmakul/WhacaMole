@@ -20,7 +20,6 @@ This project showcases core front-end development skills including DOM manipulat
 - Real-time score tracking  
 - Countdown timer  
 - Integrated sound effects  
-- Game reset functionality  
 
 ---
 
