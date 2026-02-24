@@ -1,5 +1,5 @@
 # 🐹 WhacaMole – Browser Game
-
+[![View Live](https://img.shields.io/badge/View-Live%20Project-2ea44f?style=flat-square)](https://reshmakul.github.io/WhacaMole/)
 An interactive Whac-A-Mole game built with HTML, CSS, and vanilla JavaScript.
 
 This project showcases core front-end development skills including DOM manipulation, event-driven programming, timer logic, and structured state management — implemented without external libraries.
