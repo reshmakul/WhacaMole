@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>whac a mole Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>😉 Catch The Mole</h1>
+
+    <button id="startButton">Start Game</button>
+    <p id="score">Your Score: 0</p>
+    <p id="highScore">High Score: 0</p>
+
+    <div id="timer">Time left: <span id="time">30</span></div>
+
+    <div class="game-board">
+     
+      <div class="hole">
+        <img src="Mole.png" alt="Face 1" />
+      </div>
+      <div class="hole">
+        <img src="Mole.png" alt="Face 2" />
+      </div>
+      <div class="hole">
+        <img src="Mole.png" alt="Face 3" />
+      </div>
+      <div class="hole">
+        <img src="Mole.png" alt="Face 4" />
+      </div>
+      <div class="hole">
+        <img src="Mole.png" alt="Face 5" />
+      </div>
+      <div class="hole">
+        <img src="Mole.png" alt="Face 6" />
+      </div>
+    </div>
+
+    <audio id="bomp-sound" src="sounds/hammer_hit.mp3"></audio>
+    <audio id="end-sound" src="sounds/end_game_sound.mp3"></audio>
+    <audio id="high-sound" src="sounds/high_score_sound.mp3"></audio>
+    <audio id="tick-sound" src=""></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
